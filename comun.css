@@ -1,0 +1,70 @@
+	:root {
+ 		--gray1: #333333;
+  		--gray2: #4f4f4f;
+  		--white: #ffffff;
+  		--gray3: #bdbdbd;
+		}
+
+	
+	img{width: 100%;}
+	h3{			
+			position: absolute;
+
+			font-family: 'Inconsolata', monospace;
+			font-style: normal;
+			font-weight: bold;
+			letter-spacing: -0.08em;
+			color: var(--gray1);
+			font-size: 24px;
+			line-height: 24px;
+	}
+	h1{
+			position: absolute;
+			font-family: 'Space Mono', monospace;
+			font-style: normal;
+			font-weight: bold;			
+			letter-spacing: -0.035em;
+			color: var(--gray1);
+	}
+	.fragment{
+			position: absolute;
+			font-family: 'Space Mono', monospace;
+			font-style: normal;
+			font-weight: normal;
+			letter-spacing: -0.035em;
+			color: var(--gray2);
+	}
+	.button{
+			position: absolute;
+			display: flex;
+  			align-items: center;
+			height: 68px; 
+			background-color: var(--gray1);
+	}
+	.text-button{
+			width: 100%;
+			text-align: center;
+			font-family: 'Space Mono', monospace;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 21px;
+			letter-spacing: -0.035em;
+			color: var(--white);
+		}
+
+	footer{
+			position: absolute;
+			width: 99%;
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+			color: var(--gray3);
+			padding-bottom: 20px;
+		}
+	body{
+		min-width: 320px;
+	}

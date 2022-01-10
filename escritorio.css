@@ -1,0 +1,54 @@
+@media (min-width:700px) {
+	
+		#flex-container{
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row;
+			flex-direction: row;
+		}
+
+		h3{
+			top: 40px;
+			left: 77px;
+
+		}
+		.img1{
+			position: absolute;
+			left: 5.35%;
+			right: 57.21%;
+			top:24.54%;
+			bottom: 34.03%;
+		}
+		h1{
+			left: 50%;
+			top: 265px;
+			width: 49vw;
+			max-width: 586px;
+			min-width: 450px;	
+
+			font-size: 64px;
+			line-height: 95px;
+
+		}
+		.fragment{
+			max-width: 381px;
+			left: 50%;	
+			top: 491px;		
+			width: 49vw;
+			font-size: 24px;
+			line-height: 36px;
+		}
+		.button{
+			left: 50%;
+			top: 663px;
+			width: 261px;
+
+		}
+	
+		footer{
+			top: 1039px;
+		}
+
+
+
+	}

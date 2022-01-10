@@ -1,0 +1,35 @@
+	@media (max-width:699px){
+	h3{
+			top: 20px;
+			left: 24px;
+	}
+	.img1{
+			position: absolute;
+			left: 11.73%;
+			right: 11.78%;
+			top:11.49%;
+			bottom: 63.44%;
+			max-height: 378px;
+		}
+
+	h1{
+			left: 24px;
+			top: 407px;
+			font-size: 48px;
+			line-height: 71px;
+	}
+	.fragment{
+			left: 23px;	
+			top: 579px;		
+			font-size: 18px;
+			line-height: 27px;
+	}
+	.button{		
+			left: 24px;
+			top: 726px;
+			width: 216px;
+	}
+	footer{
+		top: 908px;
+	}
+	}
