@@ -1,4 +1,8 @@
+
+/*404*/
 	@media (max-width:699px){
+
+
 	h3{
 			top: 20px;
 			left: 24px;
@@ -8,8 +12,8 @@
 			left: 11.73%;
 			right: 11.78%;
 			top:11.49%;
-			bottom: 63.44%;
 			max-height: 378px;
+			overflow: hidden;
 		}
 
 	h1{
@@ -20,7 +24,7 @@
 	}
 	.fragment{
 			left: 23px;	
-			top: 579px;		
+			top: 629px;		
 			font-size: 18px;
 			line-height: 27px;
 	}

@@ -1,3 +1,4 @@
+
 	:root {
  		--gray1: #333333;
   		--gray2: #4f4f4f;
@@ -5,8 +6,13 @@
   		--gray3: #bdbdbd;
 		}
 
+/*404 */		
+*{
+	margin: 0px;
+	padding: 0px;
+}
 	
-	img{width: 100%;}
+	img{width: 100%}
 	h3{			
 			position: absolute;
 
@@ -40,6 +46,7 @@
   			align-items: center;
 			height: 68px; 
 			background-color: var(--gray1);
+			text-decoration: none;
 	}
 	.text-button{
 			width: 100%;
@@ -65,6 +72,4 @@
 			color: var(--gray3);
 			padding-bottom: 20px;
 		}
-	body{
-		min-width: 320px;
-	}
+
